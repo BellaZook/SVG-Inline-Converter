@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/svg-inline-converter/precache-manifest.a6a8590c0966f922bccf16e53ff21e41.js"
+  "/SVG-Inline-Converter/precache-manifest.cc7caf697c0c387c2ba9ed1710638861.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/svg-inline-converter/index.html", {
+workbox.routing.registerNavigationRoute("/SVG-Inline-Converter/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

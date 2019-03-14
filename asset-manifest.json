@@ -1,13 +1,13 @@
 {
-  "main.css": "/svg-inline-converter/static/css/main.e699ace0.chunk.css",
-  "main.js": "/svg-inline-converter/static/js/main.6d8a7ee2.chunk.js",
-  "main.js.map": "/svg-inline-converter/static/js/main.6d8a7ee2.chunk.js.map",
-  "runtime~main.js": "/svg-inline-converter/static/js/runtime~main.5ed02835.js",
-  "runtime~main.js.map": "/svg-inline-converter/static/js/runtime~main.5ed02835.js.map",
-  "static/js/2.f213e47f.chunk.js": "/svg-inline-converter/static/js/2.f213e47f.chunk.js",
-  "static/js/2.f213e47f.chunk.js.map": "/svg-inline-converter/static/js/2.f213e47f.chunk.js.map",
-  "index.html": "/svg-inline-converter/index.html",
-  "precache-manifest.a6a8590c0966f922bccf16e53ff21e41.js": "/svg-inline-converter/precache-manifest.a6a8590c0966f922bccf16e53ff21e41.js",
-  "service-worker.js": "/svg-inline-converter/service-worker.js",
-  "static/css/main.e699ace0.chunk.css.map": "/svg-inline-converter/static/css/main.e699ace0.chunk.css.map"
+  "main.css": "/SVG-Inline-Converter/static/css/main.e699ace0.chunk.css",
+  "main.js": "/SVG-Inline-Converter/static/js/main.dbb11087.chunk.js",
+  "main.js.map": "/SVG-Inline-Converter/static/js/main.dbb11087.chunk.js.map",
+  "runtime~main.js": "/SVG-Inline-Converter/static/js/runtime~main.c790a120.js",
+  "runtime~main.js.map": "/SVG-Inline-Converter/static/js/runtime~main.c790a120.js.map",
+  "static/js/2.f213e47f.chunk.js": "/SVG-Inline-Converter/static/js/2.f213e47f.chunk.js",
+  "static/js/2.f213e47f.chunk.js.map": "/SVG-Inline-Converter/static/js/2.f213e47f.chunk.js.map",
+  "index.html": "/SVG-Inline-Converter/index.html",
+  "precache-manifest.cc7caf697c0c387c2ba9ed1710638861.js": "/SVG-Inline-Converter/precache-manifest.cc7caf697c0c387c2ba9ed1710638861.js",
+  "service-worker.js": "/SVG-Inline-Converter/service-worker.js",
+  "static/css/main.e699ace0.chunk.css.map": "/SVG-Inline-Converter/static/css/main.e699ace0.chunk.css.map"
 }
