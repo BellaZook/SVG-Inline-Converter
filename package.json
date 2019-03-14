@@ -2,7 +2,7 @@
   "name": "svg-inline-converter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://BellaZook.github.io/svg-inline-converter",
+  "homepage": "https://bellazook.github.io/SVG-Inline-Converter/",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
