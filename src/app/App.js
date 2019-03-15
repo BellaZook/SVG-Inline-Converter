@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import svgAttributes from '../helpers/svgInlineList';
+import Button from '../components/button/Button';
 
 class App extends Component {
   constructor(props) {
@@ -33,12 +34,10 @@ class App extends Component {
   handleSetSvgText = (event) => {
     this.setState({ svgSnippet: event.target.value })
   }
-  clearSVGSnippet = () => {
+  handleClearSVGSnippet = () => {
     this.setState({ svgSnippet: "" })
   }
   handleConvertToInline = (event) => {
-    console.log(event)
-
     event.preventDefault();
     this.findAndReplace();
   }
@@ -65,30 +64,15 @@ class App extends Component {
             onChange={this.handleSetSvgText}
           />
           <div className="button-group">
-            <button
-              className="svgForm-button button bd-green btn-green"
-              type="submit"
-              value="Submit"
-            >
-              Covert
-            </button>
-            <button
-              className="svgForm-button button bd-blue btn-blue"
-              type="reset"
-              value="Reset"
+            <Button color="green" type="submit" title="Convert" />
+            <Button
+              color="blue" type="button" title="Copy"
               onClick={this.handleCopySVGSnippet}
-            >
-              Copy
-          </button>
-            <button
-              className="svgForm-button button bd-red btn-red"
-              type="reset"
-              value="Reset"
-              onClick={this.clearSVGSnippet}
-            >
-              Clear
-          </button>
-
+            />
+            <Button
+              color="red" type="button" title="Clear"
+              onClick={this.handleClearSVGSnippet}
+            />
           </div>
         </form>
       </div>

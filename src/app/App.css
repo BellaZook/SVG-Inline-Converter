@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 .App-header {
   background-color: #282c34;
   display: flex;
@@ -25,8 +23,6 @@
 }
 
 .button-group {
-  /* display: flex;
-  justify-content: space-evenly; */
   padding: 10px;
 }
 
@@ -39,12 +35,12 @@
 }
 
 .btn-green:hover {
-  background-color: #4CAF50;
+  background-color: green;
   color: white;
 }
 
 .btn-red:hover {
-  background-color: darkred;
+  background-color: red;
   color: white;
 }
 
@@ -54,13 +50,13 @@
 }
 
 .bd-green {
-  border: 2px solid #4CAF50;
+  border: 2px solid green;
 }
 
 .bd-red {
-  border: 2px solid rgb(218, 57, 17);
+  border: 2px solid red;
 }
 
 .bd-blue {
-  border: 2px solid rgb(47, 17, 218);
+  border: 2px solid blue;
 }
