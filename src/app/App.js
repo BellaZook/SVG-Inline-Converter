@@ -5,6 +5,7 @@ import svgAttributes from '../helpers/svgInlineList';
 class App extends Component {
   constructor(props) {
     super(props);
+    this.textareaRef = React.createRef();
     this.state = {
       svgSnippet: ""
     }
@@ -41,6 +42,10 @@ class App extends Component {
     event.preventDefault();
     this.findAndReplace();
   }
+  handleCopySVGSnippet = () => {
+    this.textareaRef.current.select();
+    document.execCommand('copy');
+  }
   render() {
     return (
       <div className="App">
@@ -53,27 +58,37 @@ class App extends Component {
         >
           <textarea
             name="text" id="svgText"
-            cols="30" rows="10"
+            cols="30" rows="20"
+            ref={this.textareaRef}
             placeholder="Paste your SVG snippet inside"
             value={this.state.svgSnippet}
             onChange={this.handleSetSvgText}
           />
           <div className="button-group">
             <button
-              className="svgForm-button button bd-green"
+              className="svgForm-button button bd-green btn-green"
               type="submit"
               value="Submit"
             >
               Covert
+            </button>
+            <button
+              className="svgForm-button button bd-blue btn-blue"
+              type="reset"
+              value="Reset"
+              onClick={this.handleCopySVGSnippet}
+            >
+              Copy
           </button>
             <button
-              className="svgForm-button button bd-red"
+              className="svgForm-button button bd-red btn-red"
               type="reset"
               value="Reset"
               onClick={this.clearSVGSnippet}
             >
               Clear
           </button>
+
           </div>
         </form>
       </div>

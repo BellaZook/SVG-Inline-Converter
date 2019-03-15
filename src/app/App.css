@@ -38,11 +38,20 @@
   margin: 10px;
 }
 
-.button:hover {
+.btn-green:hover {
   background-color: #4CAF50;
   color: white;
 }
 
+.btn-red:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: blue;
+  color: white;
+}
 
 .bd-green {
   border: 2px solid #4CAF50;
@@ -50,4 +59,8 @@
 
 .bd-red {
   border: 2px solid rgb(218, 57, 17);
+}
+
+.bd-blue {
+  border: 2px solid rgb(47, 17, 218);
 }
