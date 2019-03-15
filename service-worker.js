@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SVG-Inline-Converter/precache-manifest.cc7caf697c0c387c2ba9ed1710638861.js"
+  "/SVG-Inline-Converter/precache-manifest.3dc0b67fbe17f4bad173dcd2fdf0edbc.js"
 );
 
 workbox.clientsClaim();

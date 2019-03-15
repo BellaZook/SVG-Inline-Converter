@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7f1e06ee26cba0638e7e",
-    "url": "/SVG-Inline-Converter/static/css/main.e699ace0.chunk.css"
+    "revision": "4b4603c4b776636309e7",
+    "url": "/SVG-Inline-Converter/static/css/main.ceef54b4.chunk.css"
   },
   {
-    "revision": "7f1e06ee26cba0638e7e",
-    "url": "/SVG-Inline-Converter/static/js/main.dbb11087.chunk.js"
+    "revision": "4b4603c4b776636309e7",
+    "url": "/SVG-Inline-Converter/static/js/main.eca4e718.chunk.js"
   },
   {
     "revision": "da4fa07d12d5dc46e884",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/SVG-Inline-Converter/static/js/2.f213e47f.chunk.js"
   },
   {
-    "revision": "095f3c61c6cac7af4856487d16f1df23",
+    "revision": "12968229d10504970592c4485e99ddfa",
     "url": "/SVG-Inline-Converter/index.html"
   }
 ];
